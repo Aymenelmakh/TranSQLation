@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/code_css.css">
+    <title>TEXT-TO-SQL</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+           <div class="burger-container">
+                <details class="burger-menu">
+                    <summary>
+                        <img src="../img/menu-burger.png" alt="menu">
+                    </summary>
+                    <ul class="menu-list">
+                        <li>Help</li>
+                        <li>About us</li>
+                        <li>History</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="go-to">
+                <a href="../other_templates/login_page.html">
+                    <button class="nav-btn login-btn" type="button">Log in</button>
+                </a>
+                <span class="msg">Or</span>
+                <a href="../other_templates/sign_up.html">
+                    <button class="nav-btn signup-btn" type="button">Sign up</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="welcoming">
+        <h1>Welcome to your translator</h1>
+        <p>Convert natural language to SQL queries</p>
+    </div>
+
+    <form class="translator-form" id="queryForm">
+        <div class="input-box">
+            <input id="input_query" type="text" placeholder="How can I help you today" required>
+            <button id="submitBtn" type="submit">➤</button>
+        </div>
+    </form>
+
+    <div class="output-section">
+        <h3>Generated SQL Query:</h3>
+        <div id="output" class="output-box">
+            <textarea id="sql_output" placeholder="Your SQL query will appear here..." readonly></textarea>
+        </div>
+    </div>
+
+
+
+     <footer class="foot">
+        <img src="../img/sql-server.png" alt="sql-image">
+        <div class="cont">
+            <a href="mailto:segfault40@gmail.com" class="group-mail"><h2>Email us</h2></a>
+        </div>
+        <div class="foot-info">
+            <details>
+                <summary class="cont"><h2>Project authors</h2></summary>
+                <div class="authors">
+                    <details>
+                        <summary>Aymen El Makhlouk</summary>
+                        <ul class="network">
+                            <li>
+                                <a href="mailto:a.elmakhlouk4460@uca.ac.ma">
+                                    <img src="../img/mail.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/aymen-e-899a00288/">
+                                    <img src="../img/message.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Aymenelmakh">
+                                    <img src="../img/github.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Mohamed Amine El Jaouhari</summary>
+                        <ul class="network">
+                            <li>
+                                <img src="../img/mail.png">
+                            </li>
+                            <li>
+                                <img src="../img/message.png">
+                            </li>
+                            <li>
+                                <img src="../img/github.png">
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Elouni Zakaria</summary>
+                        <ul class="network">
+                            <li>
+                                <img src="../img/mail.png">
+                            </li>
+                            <li>
+                                <img src="../img/message.png">
+                            </li>
+                            <li>
+                                <img src="../img/github.png">
+                            </li>
+                        </ul>
+                    </details>
+                </div>
+            </details>
+        </div>
+    </footer>
+
+</body>
+</html>
