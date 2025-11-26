@@ -161,8 +161,9 @@ Convert this natural language to SQL:
 This project is free to use for educational purposes.
 
 ---
-###📞 Contact
+### 📞 Contact
 If you have any questions or suggestions, feel free to contact me:
+
 **Name:Aymen El Makhlouk**
 **Email:aymenelmakhlouk@gmail.com**
 **LinkedIn:https://www.linkedin.com/in/aymen-e-899a00288/**
